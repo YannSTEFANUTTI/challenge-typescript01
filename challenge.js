@@ -1,20 +1,19 @@
-"use strict";
-const prettyPrintWilder = (users) => {
-    users.map((user) => {
-        console.log(`${user.name} is ${user.age} years old`);
+var prettyPrintWilder = function (users) {
+    users.map(function (user) {
+        console.log("".concat(user.name, " is ").concat(user.age, " years old"));
     });
 };
-const wilders = [];
-const user1 = {
+var wilders = [];
+var user1 = {
     name: "Pierre",
     age: 23
 };
-const user2 = {
+var user2 = {
     name: "Paul",
     birthday: "10/02/1990",
     age: 30
 };
-const user3 = {
+var user3 = {
     name: "Jacques",
     age: 25
 };
